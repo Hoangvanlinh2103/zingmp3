@@ -1,0 +1,23 @@
+/* Đặt biến dùng chung, màu chữ, màu chủ đề... */
+
+:root {
+    --text-color: #222;
+    --primary-color: #b441a7;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+    background-image: url('https://i.pinimg.com/originals/f8/78/7b/f8787ba7ec503a442516a85e77cbdf22.jpg'); /* Đường dẫn tới ảnh nền */
+    background-size: cover; /* Đảm bảo ảnh phủ kín khu vực */
+    
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    
+}
+

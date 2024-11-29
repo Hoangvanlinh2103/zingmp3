@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.pinimg.com/originals/f8/78/7b/f8787ba7ec503a442516a85e77cbdf22.jpg'); /* Đường dẫn tới ảnh nền */
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 18px auto;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Đáp án */
+#options button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  text-align: left;
+}
+
+#options button:hover {
+  background-color: #ddd;
+}

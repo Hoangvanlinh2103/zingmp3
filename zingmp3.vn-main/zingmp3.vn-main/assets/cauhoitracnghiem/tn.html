@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="tn.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Trắc Nghiệm Kiến Thức</h1>
+      <div id="question"></div>
+      <div id="options"></div>
+      <button onclick="checkAnswer()">Next</button>
+      <p id="result"></p>
+      <p id="correct-answer" style="display: none">
+        <strong>Đáp án đúng:</strong> <span id="correct-answer-text"></span>
+      </p>
+    </div>
+    <script src="tn.js"></script>
+  </body>
+</html>
